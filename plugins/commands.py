@@ -247,7 +247,15 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@GreyMattersYT') ] ] ),
+        reply_markup=InlineKeyboardMarkup(
+             [ 
+                 [InlineKeyboardButton('🔥 𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦', url='https://instagram.com/dads_links?igshid=NjNlMDhmYTc=')],
+                 [InlineKeyboardButton('❤️ 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://youtube.com/@Dads_Links')],
+                 [InlineKeyboardButton('🔊 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Dads_Links')],
+                 [InlineKeyboardButton('👥 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/plydramadub')]
+             ]
+         ),
+
         protect_content=True if pre == 'filep' else False,
         )
                     
