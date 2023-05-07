@@ -1,3 +1,5 @@
+# © Doctorstra 
+
 import os
 import logging
 import random
