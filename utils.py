@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://tnshort.net/api'
+    url = f'https://linkpays.in/api'
     params = {'api': SHORTNER_API,
               'url': link,
               }
