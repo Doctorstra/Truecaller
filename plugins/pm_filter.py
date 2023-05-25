@@ -443,6 +443,49 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="꧁"
+        )
+        await query.message.edit_text(
+            text="꧁♕"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 "
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
+        )      
+        await query.message.edit_text(
+            text=script.ABOUT_TXT.format(temp.U_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -461,6 +504,49 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="꧁"
+        )
+        await query.message.edit_text(
+            text="꧁♕"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 "
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
+        )
+        await query.message.edit_text(
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
+        )      
+        await query.message.edit_text(
+            text=script.ABOUT_TXT.format(temp.U_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -480,40 +566,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="꧁"
         )
         await query.message.edit_text(
-            text="♕"
+            text="꧁♕"
         )
         await query.message.edit_text(
-            text="𝐃"
+            text="꧁♕𝐃"
         )
         await query.message.edit_text(
-            text="𝐀"
+            text="꧁♕𝐃𝐀"
         )
         await query.message.edit_text(
-            text="𝐃"
+            text="꧁♕𝐃𝐀𝐃"
         )
         await query.message.edit_text(
-            text="𝐒"
+            text="꧁♕𝐃𝐀𝐃𝐒"
         )
         await query.message.edit_text(
-            text="_"
+            text="꧁♕𝐃𝐀𝐃𝐒 "
         )
         await query.message.edit_text(
-            text="𝐋"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
         )
         await query.message.edit_text(
-            text="𝐈"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
         )
         await query.message.edit_text(
-            text="𝐍"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
         )
         await query.message.edit_text(
-            text="𝐊"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
         )
         await query.message.edit_text(
-            text="𝐒"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
         )
         await query.message.edit_text(
-            text="꧂"
+            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
         )      
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.U_NAME),
