@@ -13,6 +13,16 @@ heroku3
 pynewtonmath
 pytz
 aiohttp
+#---master---#
+#Telethroid==0.0.10
+PyLeaves==1.0.2
+
+#---ytdl----#
+youtube-search-python
+youtube-search
+yt-dlp==2023.2.17
+
+#---others----#
 opencv-python-headless==4.7.0.68
 googletrans==3.1.0a0
 telegraph==2.2.0
@@ -26,7 +36,9 @@ NumPy
 wheel
 ujson
 wget
-youtube-search-python
-youtube-search
-yt-dlp==2023.2.17
+
+
+
+
+
 
