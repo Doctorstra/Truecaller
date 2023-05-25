@@ -477,19 +477,49 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="꧁"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="♕"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
-        )       
+            text="𝐃"
+        )
+        await query.message.edit_text(
+            text="𝐀"
+        )
+        await query.message.edit_text(
+            text="𝐃"
+        )
+        await query.message.edit_text(
+            text="𝐒"
+        )
+        await query.message.edit_text(
+            text="_"
+        )
+        await query.message.edit_text(
+            text="𝐋"
+        )
+        await query.message.edit_text(
+            text="𝐈"
+        )
+        await query.message.edit_text(
+            text="𝐍"
+        )
+        await query.message.edit_text(
+            text="𝐊"
+        )
+        await query.message.edit_text(
+            text="𝐒"
+        )
+        await query.message.edit_text(
+            text="꧂"
+        )      
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.U_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
+        )  
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('🔙 Back', callback_data='about')
