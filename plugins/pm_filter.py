@@ -495,25 +495,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="꧁♕𝐃𝐀𝐃𝐒"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 "
+            text="꧁♕𝐃𝐀𝐃𝐒_"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋𝐈"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋𝐈𝐍"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋𝐈𝐍𝐊"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋𝐈𝐍𝐊𝐒"
         )
         await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
+            text="꧁♕𝐃𝐀𝐃𝐒_𝐋𝐈𝐍𝐊𝐒꧂"
         )      
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.U_NAME),
