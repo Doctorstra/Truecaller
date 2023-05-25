@@ -442,51 +442,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚡ 𝐀𝐛𝐨𝐮𝐭 ⚡', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="꧁"
-        )
-        await query.message.edit_text(
-            text="꧁♕"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 "
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
-        )      
-        await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.U_NAME),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+        await query.message.edit_text
+             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -503,50 +460,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📊 Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="꧁"
-        )
-        await query.message.edit_text(
-            text="꧁♕"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 "
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒"
-        )
-        await query.message.edit_text(
-            text="꧁♕𝐃𝐀𝐃𝐒 𝐋𝐈𝐍𝐊𝐒꧂"
-        )      
-        await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.U_NAME),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
+        await query.message.edit_text
+            
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
